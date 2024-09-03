@@ -27,5 +27,5 @@ OPENAI_API_KEY=""
 ## Run
 
 ```bash
-yarn run
+yarn start
 ```
