@@ -24,7 +24,10 @@ async function run() {
   const json = await client.fetchTemplate(`${templateName}.json`);
   const promptTemplate = PromptTemplateRuntime.load(json);
 
-  await promptTemplate.runSingle(promptName);
+  const output = await promptTemplate.runSingle(promptName);
+  if ("data" in output[0]) {
+    console.log(output[0].data);
+  }
 }
 
 run().catch(console.error);
