@@ -1,4 +1,4 @@
-import 'dotenv/config';
+import 'dotenv/config';  // must be imported first, so the OPENAI_API_KEY is set when loading PromptTemplateRuntime
 import { Puzzlet } from "@puzzlet/sdk";
 import { PromptTemplateRuntime } from "@puzzlet/prompt-template";
 
@@ -10,6 +10,7 @@ function getEnvVar(name: string): string {
   return value;
 }
 
+getEnvVar('OPENAI_API_KEY'); // Just to make sure it is set
 const apiKey = getEnvVar('PUZZLET_API_KEY');
 const appId = getEnvVar('PUZZLET_APP_ID');
 const templateName = getEnvVar('PUZZLET_TEMPLATE_NAME');
