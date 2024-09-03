@@ -1,0 +1,20 @@
+{
+  "name": "puzzling",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@puzzlet/prompt-template": "^0.0.3",
+    "@puzzlet/sdk": "^0.0.4",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.5.4"
+  }
+}
