@@ -1,6 +1,6 @@
+import 'dotenv/config';
 import { Puzzlet } from "@puzzlet/sdk";
 import { PromptTemplateRuntime } from "@puzzlet/prompt-template";
-import 'dotenv/config';
 
 // Replace 'your_api_key' and 'your_app_id' with actual values
 const apiKey = process.env.PUZZLET_API_KEY!;
