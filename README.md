@@ -21,6 +21,8 @@ Set up the environment variables in a `.env` file in the root directory.
 # .env
 PUZZLET_API_KEY=""
 PUZZLET_APP_ID=""
+PUZZLET_PROMPT_TEMPLATE=""
+PUZZLET_PROMPT_NAME=""
 OPENAI_API_KEY=""
 ```
 
